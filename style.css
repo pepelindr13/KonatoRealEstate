@@ -83,6 +83,11 @@
   padding: 10px 25px;
 }
 
+.btn a {
+  text-decoration: none;
+  color: white;
+}
+
 .btn:hover {
   color: #00aeff;
   border: 1px solid #00aeff;
