@@ -13,6 +13,21 @@
   color: white;
   font-size: 17px;
 }
+.login {
+  color: white;
+  background-color: #00aeff;
+  border-radius: 4px;
+  padding:10px 20px;
+  margin-left: 40px;
+}
+
+.login:hover {
+  color: #00aeff;
+  border: 1px solid #00aeff;
+  background-color: #004274;
+}
+
+
 .dropdown {
   position: relative;
   display: inline-block;
