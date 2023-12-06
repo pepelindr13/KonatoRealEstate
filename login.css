@@ -1,0 +1,51 @@
+body {
+  background-image: url(images/heroo.jpg);
+  background-size: cover;
+}
+
+form {
+  background-color: white;
+  width: 50%;
+  margin:20px auto;
+  padding: 50px;
+}
+
+label {
+  font-weight: 600;
+}
+
+::placeholder {
+  font-size: 12px;
+  color: grey;
+}
+
+.check {
+  justify-content: space-between;
+}
+
+.forgot {
+  color: #00aeff;
+  font-size: 14px;
+}
+
+.signup {
+  align-items: center;
+}
+
+.signup button {
+  color: white;
+  background-color: #00aeff;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 4px;
+}
+
+a {
+  text-decoration: none;
+}
+
+@media (max-width:475px) {
+  form {
+    width: 100%;
+  }
+}
